@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hoàng Bún - Bán hàng & Dịch vụ điều hòa</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container header-content">
+
+        <a href="#" class="logo">
+            ❄️ <span>Hoàng Bún <b></b></span>
+        </a>
+
+        <nav>
+            <a href="#home">Trang chủ</a>
+            <a href="#products">Sản phẩm</a>
+            <a href="#services">Dịch vụ</a>
+            <a href="#booking">Đặt lịch</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+
+        <a href="tel:19001234" class="hotline">
+            ☎ 1900 1234
+        </a>
+
+    </div>
+</header>
+
+
+<!-- HERO -->
+<section id="home" class="hero">
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+            <p class="subtitle">ĐIỀU HÒA CHÍNH HÃNG</p>
+
+            <h1>
+                MÁT LẠNH TỨC THÌ<br>
+                <span>GIÁ TỐT MỖI NGÀY</span>
+            </h1>
+
+            <p>
+                Cung cấp điều hòa chính hãng, lắp đặt tận nơi,
+                sửa chữa và bảo dưỡng chuyên nghiệp.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">
+                    Xem sản phẩm
+                </a>
+
+                <a href="#booking" class="btn btn-outline">
+                    Đặt lịch ngay
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="air-conditioner">
+                ❄️
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURES -->
+<section class="features">
+
+    <div class="container feature-grid">
+
+        <div class="feature">
+            <div class="feature-icon">🚚</div>
+            <div>
+                <h3>Giao hàng tận nơi</h3>
+                <p>Giao hàng nhanh chóng</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">🔧</div>
+            <div>
+                <h3>Lắp đặt chuyên nghiệp</h3>
+                <p>Kỹ thuật viên giàu kinh nghiệm</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">🛡️</div>
+            <div>
+                <h3>Bảo hành chính hãng</h3>
+                <p>Yên tâm sử dụng</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">☎️</div>
+            <div>
+                <h3>Hỗ trợ 24/7</h3>
+                <p>Tư vấn nhanh chóng</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PRODUCTS -->
+<section id="products" class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <p>SẢN PHẨM</p>
+            <h2>Điều hòa bán chạy</h2>
+            <span>Những sản phẩm được khách hàng lựa chọn nhiều nhất</span>
+        </div>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    ❄️
+                </div>
+
+                <span class="discount">-15%</span>
+
+                <div class="product-info">
+                    <p class="brand">DAIKIN</p>
+
+                    <h3>
+                        Điều hòa Daikin Inverter 1HP
+                    </h3>
+
+                    <p class="description">
+                        Công suất 9000 BTU, tiết kiệm điện.
+                    </p>
+
+                    <div class="price">
+                        9.500.000đ
+                    </div>
+
+                    <button onclick="addToCart('Điều hòa Daikin Inverter 1HP', 9500000)">
+                        Thêm vào giỏ
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    ❄️
+                </div>
+
+                <span class="discount">-10%</span>
+
+                <div class="product-info">
+                    <p class="brand">PANASONIC</p>
+
+                    <h3>
+                        Điều hòa Panasonic Inverter 1HP
+                    </h3>
+
+                    <p class="description">
+                        Làm lạnh nhanh, vận hành êm ái.
+                    </p>
+
+                    <div class="price">
+                        8.900.000đ
+                    </div>
+
+                    <button onclick="addToCart('Điều hòa Panasonic Inverter 1HP', 8900000)">
+                        Thêm vào giỏ
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    ❄️
+                </div>
+
+                <span class="discount">-12%</span>
+
+                <div class="product-info">
+                    <p class="brand">LG</p>
+
+                    <h3>
+                        Điều hòa LG Dual Inverter 1HP
+                    </h3>
+
+                    <p class="description">
+                        Tiết kiệm điện, thiết kế hiện đại.
+                    </p>
+
+                    <div class="price">
+                        7.990.000đ
+                    </div>
+
+                    <button onclick="addToCart('Điều hòa LG Dual Inverter 1HP', 7990000)">
+                        Thêm vào giỏ
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    ❄️
+                </div>
+
+                <span class="discount">-20%</span>
+
+                <div class="product-info">
+                    <p class="brand">CASPER</p>
+
+                    <h3>
+                        Điều hòa Casper Inverter 1HP
+                    </h3>
+
+                    <p class="description">
+                        Giá tốt, làm lạnh nhanh.
+                    </p>
+
+                    <div class="price">
+                        6.990.000đ
+                    </div>
+
+                    <button onclick="addToCart('Điều hòa Casper Inverter 1HP', 6990000)">
+                        Thêm vào giỏ
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SERVICES -->
+<section id="services" class="section services-section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <p>DỊCH VỤ</p>
+            <h2>Dịch vụ điều hòa của chúng tôi</h2>
+            <span>Phục vụ tận nơi - nhanh chóng - chuyên nghiệp</span>
+        </div>
+
+
+        <div class="service-grid">
+
+            <div class="service-card">
+                <div class="service-icon">🛠️</div>
+
+                <h3>Lắp đặt điều hòa</h3>
+
+                <p>
+                    Lắp đặt điều hòa tại nhà với đội ngũ
+                    kỹ thuật viên chuyên nghiệp.
+                </p>
+
+                <a href="#booking">Đặt lịch →</a>
+            </div>
+
+
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+
+                <h3>Sửa chữa điều hòa</h3>
+
+                <p>
+                    Khắc phục điều hòa không lạnh,
+                    chảy nước, kêu to và các lỗi khác.
+                </p>
+
+                <a href="#booking">Đặt lịch →</a>
+            </div>
+
+
+            <div class="service-card">
+                <div class="service-icon">🧹</div>
+
+                <h3>Bảo dưỡng điều hòa</h3>
+
+                <p>
+                    Vệ sinh và bảo dưỡng điều hòa
+                    giúp máy hoạt động ổn định.
+                </p>
+
+                <a href="#booking">Đặt lịch →</a>
+            </div>
+
+
+            <div class="service-card">
+                <div class="service-icon">❄️</div>
+
+                <h3>Nạp gas điều hòa</h3>
+
+                <p>
+                    Kiểm tra và nạp gas điều hòa
+                    nhanh chóng tại nhà.
+                </p>
+
+                <a href="#booking">Đặt lịch →</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- BOOKING -->
+<section id="booking" class="booking-section">
+
+    <div class="container booking-container">
+
+        <div class="booking-text">
+
+            <p>ĐẶT LỊCH DỊCH VỤ</p>
+
+            <h2>
+                Đặt lịch sửa chữa<br>
+                <span>ngay tại nhà</span>
+            </h2>
+
+            <p>
+                Điền thông tin bên cạnh, nhân viên của chúng tôi
+                sẽ liên hệ xác nhận lịch hẹn.
+            </p>
+
+            <div class="booking-hotline">
+                ☎ 1900 1234
+            </div>
+
+        </div>
+
+
+        <form id="bookingForm" class="booking-form">
+
+            <h3>Thông tin đặt lịch</h3>
+
+            <label>Họ và tên</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Nhập họ tên"
+                required
+            >
+
+            <label>Số điện thoại</label>
+            <input
+                type="tel"
+                id="phone"
+                placeholder="Nhập số điện thoại"
+                required
+            >
+
+            <label>Địa chỉ</label>
+            <input
+                type="text"
+                id="address"
+                placeholder="Nhập địa chỉ"
+                required
+            >
+
+            <label>Dịch vụ</label>
+
+            <select id="service" required>
+                <option value="">-- Chọn dịch vụ --</option>
+                <option>Lắp đặt điều hòa</option>
+                <option>Sửa chữa điều hòa</option>
+                <option>Bảo dưỡng điều hòa</option>
+                <option>Nạp gas điều hòa</option>
+            </select>
+
+            <div class="form-row">
+
+                <div>
+                    <label>Ngày</label>
+
+                    <input
+                        type="date"
+                        id="date"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label>Giờ</label>
+
+                    <input
+                        type="time"
+                        id="time"
+                        required
+                    >
+                </div>
+
+            </div>
+
+            <label>Ghi chú</label>
+
+            <textarea
+                id="note"
+                placeholder="Mô tả tình trạng điều hòa..."
+            ></textarea>
+
+            <button type="submit">
+                📅 ĐẶT LỊCH NGAY
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <p>LIÊN HỆ</p>
+            <h2>Liên hệ với chúng tôi</h2>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-item">
+                <span>☎️</span>
+                <div>
+                    <h3>Hotline</h3>
+                    <p>1900 1234</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <span>📍</span>
+                <div>
+                    <h3>Địa chỉ</h3>
+                    <p>Hà Nội, Việt Nam</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <span>✉️</span>
+                <div>
+                    <h3>Email</h3>
+                    <p>contact@dieuhoa24h.vn</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+            <h2>❄️ Hoàng Bún</h2>
+
+            <p>
+                Chuyên cung cấp điều hòa chính hãng
+                và dịch vụ điều hòa tận nơi.
+            </p>
+        </div>
+
+        <div>
+            <h3>Dịch vụ</h3>
+
+            <a href="#services">Lắp đặt</a>
+            <a href="#services">Sửa chữa</a>
+            <a href="#services">Bảo dưỡng</a>
+        </div>
+
+        <div>
+            <h3>Liên hệ</h3>
+
+            <p>☎ 1900 1234</p>
+            <p>📍 Hà Nội</p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 Hoàng Bún. All Rights Reserved.
+    </div>
+
+</footer>
+
+
+<!-- CART -->
+<div id="cart" class="cart">
+
+    🛒 Giỏ hàng:
+    <span id="cartCount">0</span> sản phẩm
+
+</div>
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
